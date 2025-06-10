@@ -20,7 +20,7 @@ body{
 
 .content {
     min-height: 100px;
-    background-color: black;
+    background-color: red;
 }
 .menu{
     position: absolute;
