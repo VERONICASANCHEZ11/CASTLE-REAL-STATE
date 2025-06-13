@@ -8,22 +8,46 @@
     <title>Document</title>
 </head>
 <header>
-    <div class="content">
-        <div class="menu container">
-            <nav class="navbar">
-                <ul>
-                    <li><a href="#INICIO">INICIO</a></li>
-                    <li><a href="">NOSOTROS</a></li>
-                    <li><a href="">CONTACTO</a></li>
-                    <li><a href="">VENTAS</a></li>
-                </ul>
-            </nav>
-        </div>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
     </div>
+  </nav>
 </header>
 <body>
     <section class="inicio" id="INICIO">
-    <div id="carouselExampleCaptions" class="carousel slide">
+      <div id="carouselExampleCaptions" class="carousel slide">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -31,23 +55,23 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="IMG/juvent.jpeg" class="d-block w-100" alt="...">
+            <img src="juvent.jpeg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-             <h1>FIRST SLIDE</h1>
+              <h5>First slide label</h5>
               <p>Some representative placeholder content for the first slide.</p>
             </div>
           </div>
           <div class="carousel-item">
             <img src="IMG/juvent.jpeg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-                <h1>FIRST SLIDE</h1>
+              <h5>Second slide label</h5>
               <p>Some representative placeholder content for the second slide.</p>
             </div>
           </div>
           <div class="carousel-item">
             <img src="IMG/juvent.jpeg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-                <h1>FIRST SLIDE</h1>
+              <h5>Third slide label</h5>
               <p>Some representative placeholder content for the third slide.</p>
             </div>
           </div>
@@ -62,6 +86,64 @@
         </button>
       </div>
     </section>
+    <section class="nosotros-section">
+      <div class="text-content">
+        <h2><span class="highlight">Nuestra </span> Empresa</h2>
+        <p>
+          We believe in the power of data. Our analytics-driven approach allows us to make informed decisions and optimize your marketing efforts for maximum ROI. Let’s turn your data into actionable insights. Tailored solutions for your business. Let’s turn your data into actionable insights. Tailored solutions for your business. We believe in the power of data. Our analytics-driven approach allows us to make informed decisions and optimize your marketing efforts for maximum ROI. Let’s turn your data into actionable insights. Tailored solutions for your business. Let’s turn your data into actionable insights. Tailored solutions for your business.
+        </p>
+       <!-- From Uiverse.io by adamgiebl --> 
+<button class="cssbuttons-io-button">
+  Get started
+  <div class="icon">
+    <svg
+      height="24"
+      width="24"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path d="M0 0h24v24H0z" fill="none"></path>
+      <path
+        d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+        fill="currentColor"
+      ></path>
+    </svg>
+  </div>
+</button>
+
+
+      </div>
+      <div class="image-content">
+        <img src="IMG/2885699.jpg" alt="Data analysis illustration">
+      </div>
+    </section>
+
+
+    <section class="cards-section">
+      <h2 class="section-title">Nuestros Servicios</h2>
+      <div class="card-container">
+    
+        <div class="custom-card">
+          <h3>Diseño Web</h3>
+          <p>Diseñamos páginas web modernas, responsivas y centradas en la experiencia del usuario.</p>
+          <img src="IMG/2885699.jpg" alt="Descripción de la imagen">
+        </div>
+    
+        <div class="custom-card">
+          <h3>Marketing Digital</h3>
+          <p>Impulsa tu marca en redes sociales, Google y más con estrategias efectivas y creativas.</p>
+          <img src="IMG/2885699.jpg" alt="Descripción de la imagen">
+        </div>
+    
+        <div class="custom-card">
+          <h3>Branding</h3>
+          <p>Creamos identidades visuales sólidas y memorables para tu empresa o proyecto.</p>
+          <img src="IMG/2885699.jpg" alt="Descripción de la imagen">
+        </div>
+    
+      </div>
+    </section>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" ></script>
 </body>
 </html>
